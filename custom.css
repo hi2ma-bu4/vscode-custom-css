@@ -1,6 +1,6 @@
 @charset "utf-8";
 
 .editor-group-watermark>.letterpress {
-  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode-Thick.png");
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode-Thick.png") !important;
   opacity: 0.75;
 }
