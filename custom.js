@@ -1,7 +1,8 @@
 (function() {
+  console.log("custom-js Loaded!");
   const isWorkspace = !vscode.context.configuration().workspace.uri;
-  const watermark = document.querySelector(".editor-group-watermark>.letterpress");
-  if(!isWorkspace && watermark){
+  console.log("custom-js isWorkspace:",isWorkspace);
+  if(!isWorkspace){
     document.body.classList.add("custom-isWorkspace");
   }
 })();
