@@ -4,13 +4,13 @@
   opacity: 0.75;
 }
 
-.split-view-container:has(.explorer-folders-view):not(:has(.rootfolder-icon)) .editor-group-watermark>.letterpress {
+.custom-isWorkspace .editor-group-watermark>.letterpress {
   background-image: url("https://raw.githubusercontent.com/theinsidersandrush/ServiceLogos/main/VisualStudioCode/VisualStudioCode.png") !important;
   height: 50%;
   width: 180% !important;
   background-size: contain !important;
 }
 
-.split-view-container:has(.explorer-folders-view):has(.rootfolder-icon) .editor-group-watermark>.letterpress {
+.editor-group-watermark>.letterpress {
   background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode-Thick.png") !important;
 }
