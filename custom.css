@@ -1,16 +1,16 @@
 @charset "utf-8";
 
-.editor-group-watermark>.letterpress {
+.editor-group-watermark > .watermark-container > .letterpress {
   opacity: 0.75;
 }
 
-.custom-isWorkspace .editor-group-watermark>.letterpress {
+.custom-isWorkspace .editor-group-watermark > .watermark-container > .letterpress {
   background-image: url("https://raw.githubusercontent.com/theinsidersandrush/ServiceLogos/main/VisualStudioCode/VisualStudioCode.png") !important;
   height: 50%;
   width: 180% !important;
   background-size: contain !important;
 }
 
-.editor-group-watermark>.letterpress {
+.editor-group-watermark > .watermark-container > .letterpress {
   background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode-Thick.png") !important;
 }
