@@ -6,9 +6,9 @@
 
 .custom-isWorkspace .editor-group-watermark > .watermark-container > .letterpress {
   background-image: url("https://raw.githubusercontent.com/theinsidersandrush/ServiceLogos/main/VisualStudioCode/VisualStudioCode.png") !important;
-  height: 40%;
+  height: 50%;
   width: 180% !important;
-  max-width: inherit !important;
+  max-width: 450px !important;
   background-size: contain !important;
 }
 
